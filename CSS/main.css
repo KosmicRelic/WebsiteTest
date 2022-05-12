@@ -42,7 +42,8 @@ input {
    position: absolute;
    height:100%;
    top:0px;
-   left:522px;
+   left:520px;
    background-color: #0000;
+   cursor: pointer;
    border:none;
 }
