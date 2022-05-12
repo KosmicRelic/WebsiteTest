@@ -1,56 +1,16 @@
 body {
-   background-color: rgb(60, 60, 60);
+   background-color: #1b1b27;
 }
 
-#headline{
+#title{
+   right:50%;
    color:white;
    text-align: left;
-   margin-right: 50%;
-   font-size: 7.9rem;
+   margin-top:5%;
+   font-size: 5rem;
+   text-align: center;
 }
 
 #RedColor {
    color:red;
-}
-
-#This_is {
-   color:white;
-   font-size: 3.75rem;
-   margin-bottom: 0.5%;
-}
-
-#This_is_headline {
-   color: rgb(171, 255, 196);
-   font-size: 3.125rem;
-   font-family: Arial, Helvetica, sans-serif;
-   margin-top: 0.5%;
-   margin-left:5%;
-}
-
-#This_is_Span {
-   border-style: double;
-}
-
-
-#LearnMore {
-   color: white;
-   font-size: 2.5rem;
-   margin-right: 60%;
-}
-#LearnMore_Span {
-   color:rgb(142, 227, 255);
-   text-decoration: none; /*Deletes underlines of a href*/
-   border-bottom-style: dotted;
-}
-
-.CenterText {
-   position: absolute;
-   top:10px;
-   color: aliceblue;
-   text-align: left;
-   margin-left: 50%;
-   margin-right: 1%;
-   margin-top: 5%;
-   font-size: 1.25rem;
-   background-color: rgb(113, 113, 113);
 }
