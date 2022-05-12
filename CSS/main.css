@@ -1,16 +1,23 @@
 body {
+   margin:0;
+   padding:0;
    background-color: #1b1b27;
 }
 
 #title{
-   right:50%;
    color:white;
    text-align: left;
-   margin-top:5%;
+   margin-top:7%;
+   margin-bottom: 4%;
    font-size: 5rem;
    text-align: center;
 }
 
 #RedColor {
    color:red;
+}
+
+
+.search-bar-box {
+   text-align: center;
 }
