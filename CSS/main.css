@@ -1,7 +1,7 @@
 body {
    margin:0;
    padding:0;
-   background-color: #d4d4d4;
+   background-color: #c1c1c1;
 }
 
 #title{
@@ -27,7 +27,7 @@ body {
    padding:0px 0px;
    border-radius: 50px;
    text-align: center;
-   background-color: white;
+   background-color: #e0e0e0;
 }
 
 .elements-container {
@@ -44,7 +44,7 @@ body {
    padding: 0px 5px;
    border-radius: 50px;
    font-size: 18px;
-   color:#424242;
+   color:#e0e0e0;
 }
 
 .material-icons {
@@ -53,6 +53,7 @@ body {
 /* used to remove the black border from search bar when highlighted*/
 input { 
    outline: none;
+   background-color: #e0e0e0;
 }
 
 textarea {
