@@ -32,6 +32,7 @@ body {
 #LearnMore {
    color: white;
    font-size: 2.5rem;
+   margin-right: 60%;
 }
 #LearnMore_Span {
    color:rgb(142, 227, 255);
