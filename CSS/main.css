@@ -15,7 +15,7 @@ body {
    position: absolute;
    top:220px;
    left: 50%;
-   padding: 5px 20px;
+   padding: 5px 30px;
    transform: translate(-50%,-50%);
    border: 1px solid #e8e8e8;
    border-radius: 50px;
@@ -23,23 +23,26 @@ body {
 }
 
 #search {
-   width:80%;
    height:100%;
-   transform: translate(0%,-28%);
    border:none;
+   transform: translate(-3%);
    background-color: rgb(238, 238, 238);
    font-size: 1.2rem;
    width: 500px;
+   height: 35px;
    
 }
 
 /*used to delete the border of search when selected*/
 input {
-   outline: none;
+   /*outline: none;*/
 }
 
 #search-button {
+   position: absolute;
    height:100%;
+   top:0px;
+   left:522px;
    background-color: #0000;
    border:none;
 }
