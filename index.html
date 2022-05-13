@@ -7,15 +7,17 @@
         <link rel="icon" href="images/Web Icon.png">
     </head>
     <body>
-        <h1 id="title">SuperStore</h1>
+        <h1 class="title">SuperStore</h1>
         
         <div class="search-box">
-            <form action="https://skroutz.gr/search" method="get">
-                <input type="text" placeholder="search" name="q" id="search">
-                <button id="search-button" type="submit"><img src="images/Search Icon.png" width="30" height="30"></button>
+            <form action="https://www.skroutz.gr/search?keyphrase=" method="get">
+                <input class="search" type="text" placeholder="search" name="keyphrase" autocomplete="off">
+                <img class="line" src="images/Line.png" width="1" height="30">
+                <img class="clear-icon" src="images/CancelText.png" width="10" height="10">
+                <button class="search-button" type="submit"><img src="images/Search Icon.png" width="28" height="28"></button>
             </form>
         </div>
-
+        
     <script src="js/DarkTheme.js"></script>
     </body>
 </html>
