@@ -41,3 +41,4 @@ function UnscaleImage(){
 categoryLi.onmouseover = ScaleImage;
 //When mouse stops hovering over element
 categoryLi.onmouseleave = UnscaleImage;
+//---------------------------------------------------------------------------
