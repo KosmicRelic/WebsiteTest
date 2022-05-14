@@ -94,15 +94,15 @@ input {
    border: 1px solid #000;
 }
 /* Controls the title of the category*/
-.categorylispan{
+.technology{
    position:absolute;
    top:1rem;
    left:1rem;
-   font-size: 1.8rem;
+   font-size: 1.9rem;
    text-align:left;
    color:white;   
    transition: 0.1s ease;
-}.categorylispan:hover {
+}.technology:hover {
    border-bottom: 1px solid white;
    transform:scale(1.05);
    transition: 0.1s ease;
@@ -113,6 +113,7 @@ input {
    top:3rem;
    left:1.3rem;
    font-size: 1.2rem;
+   font-weight: 100;
    text-align:left;
    color:white;   
    transition: 0.1s ease;
