@@ -79,9 +79,11 @@ input {
 }
 /* Controls the box of the category*/
 .category li{
-   position:relative;
-   left:0rem;
-   list-style: none;
+   position:absolute;
+   top:-4rem;
+   left:1rem;
+   list-style: none;   
+   border: 1px solid #e8e8e8;
    border-radius: 4%;
    width: 15.625rem;
    height:25rem;
@@ -89,8 +91,7 @@ input {
    overflow: hidden; /*hides objects that overflow the parent*/
 }
 .category li:hover {
-   box-sizing: border-box;
-   border: 2px solid #000;
+   border: 1px solid #000;
 }
 /* Controls the title of the category*/
 .category li span{
