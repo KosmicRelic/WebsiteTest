@@ -48,6 +48,8 @@ input {
    position:absolute;
    top:1.2rem;
    left:33rem;
+   width:10px;
+   height:10px;
 }
 
 /* Line image on search bar for style*/
@@ -55,6 +57,8 @@ input {
    position:absolute;
    top:0.5rem;
    left:35.2rem;
+   width:1px;
+   height:30px;
 }
 
 .search-button {
@@ -79,6 +83,7 @@ input {
 }
 /* Controls the box of the category*/
 .category li{
+   display:inline;
    position:absolute;
    top:-4rem;
    left:1rem;
@@ -87,14 +92,29 @@ input {
    border-radius: 4%;
    width: 15.625rem;
    height:20rem;
-   background-color: #316888;
    overflow: hidden; /*hides objects that overflow the parent*/
-}
-.category li:hover {
-   border: 1px solid #000;
+   transition: 0.2s ease;
+}.category li:hover {
+   border-color: #000;
+   transition: 0.2s ease;
+}.category li:first-child{
+   margin-left:0rem;
+   background-color: #316888;
+}.house_garden {
+   margin-left:17rem;
+   background-color: #7f6f56;
+}.fashion {
+   margin-left:34rem;
+   background-color: #503367;
+}.sports {
+   margin-left:51rem;
+   background-color: #863529;
+}.pets {
+   margin-left:68rem;
+   background-color: #2e7557;
 }
 /* Controls the title of the category*/
-.technology{
+.categorytitle{
    position:absolute;
    top:1rem;
    left:1rem;
@@ -102,10 +122,10 @@ input {
    text-align:left;
    color:white;   
    transition: 0.1s ease;
-}.technology:hover {
+}.categorytitle:hover {
    border-bottom: 1px solid white;
    transform:scale(1.05);
-   transition: 0.1s ease;
+   transition: 0.s ease;
 }
 /* Controls the headlines of the category */
 .category li h3{
@@ -121,7 +141,7 @@ input {
    border-bottom: 1px solid white;
    font-size: 1.3rem;
    transition: 0.1s ease;
-}.category li h3 a{
+}.title a, .category li h3 a{
    text-decoration: none;
    color:inherit;
 }

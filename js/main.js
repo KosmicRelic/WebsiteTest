@@ -30,12 +30,12 @@ const categoryLiImg = document.querySelector(".category li img");
 
 function ScaleImage(){
    categoryLiImg.style.transform = 'scale(1.07)';
-   categoryLiImg.style.transitionDuration  = "0.3s";
+   categoryLiImg.style.transitionDuration  = "0.2s";
 }
 
 function UnscaleImage(){
   categoryLiImg.style.transform = 'scale(1)';
-  categoryLiImg.style.transitionDuration  = "0.3s";
+  categoryLiImg.style.transitionDuration  = "0.2s";
 }
 //When mouse hovers element
 categoryLi.onmouseover = ScaleImage;
