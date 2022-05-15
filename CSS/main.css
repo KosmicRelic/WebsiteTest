@@ -82,7 +82,7 @@ h1{text-align: center;}
    top:28rem;
    left:50%;
    margin:0;
-   transform: translate(-1700%);
+   transform: translate(-1500%);
    padding:0;
 }
 /* Controls the box of the category*/
@@ -94,8 +94,8 @@ h1{text-align: center;}
    list-style: none;   
    border: 1px solid #e8e8e8;
    border-radius: 4%;
-   width: 15.625rem;
-   height:18rem;
+   width: 13.625rem;
+   height:16rem;
    overflow: hidden; /*hides objects that overflow the parent*/
    transition: 0.2s ease;
 }.technology li:hover {
@@ -105,16 +105,16 @@ h1{text-align: center;}
    margin-left:0rem;
    background-color: #316888;
 }.house_garden {
-   margin-left:17rem;
+   margin-left:15rem;
    background-color: #7f6f56;
 }.fashion {
-   margin-left:34rem;
+   margin-left:30rem;
    background-color: #503367;
 }.sports {
-   margin-left:51rem;
+   margin-left:45rem;
    background-color: #863529;
 }.pets {
-   margin-left:68rem;
+   margin-left:60rem;
    background-color: #2e7557;
 }
 /* Controls the title of the category*/
@@ -134,10 +134,11 @@ h1{text-align: center;}
 /* Controls the headlines of the category */
 .category li h3{
    position:relative;
-   top:3rem;
+   top:4rem;
    left:1.3rem;
-   font-size: 1.2rem;
+   font-size: 1.1rem;
    font-weight: 100;
+   margin:4px;
    text-align:left;
    color:white;   
    transition: 0.1s ease;
@@ -153,8 +154,8 @@ h1{text-align: center;}
 /* Controls the image of the category*/
 .category li img{
    position:absolute;
-   top:12.5rem;
-   left:3.8rem;
+   top:10.5rem;
+   left:2.9rem;
    width:8rem;
    height:10rem;
 }
