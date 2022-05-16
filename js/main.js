@@ -40,17 +40,20 @@ const sportsIMG = document.getElementById("sportsIMG");
 const pets = document.querySelector(".pets");
 const petsIMG = document.getElementById("petsIMG");
 
+const travel = document.querySelector(".travel");
+const travelIMG = document.getElementById("travelIMG");
 
-function ScalecategoryLiImg(){
+// TECHNOLOGY
+function ScaleTechnologyLi(){
   technologyLIIMG.style.transform = 'scale(1.07)';
   technologyLIIMG.style.transitionDuration  = "0.2s";
 
 }
-function UnscalecategoryLiImg(){
+function UnscaleTechnologyLi(){
   technologyLIIMG.style.transform = 'scale(1)';
   technologyLIIMG.style.transitionDuration  = "0.2s";
 }
-
+// HOUSE-GARDEN
 function ScaleHouse_Garden(){
   house_gardenIMG.style.transform = 'scale(1.07)';
   house_gardenIMG.style.transitionDuration  = "0.2s";
@@ -60,7 +63,7 @@ function UnscaleHouse_Garden(){
   house_gardenIMG.style.transform = 'scale(1)';
   house_gardenIMG.style.transitionDuration  = "0.2s";
 }
-
+// FASHION
 function ScaleFashion(){
   fashionIMG.style.transform = 'scale(1.07)';
   fashionIMG.style.transitionDuration  = "0.2s";
@@ -70,7 +73,7 @@ function UnscaleFashion(){
   fashionIMG.style.transform = 'scale(1)';
   fashionIMG.style.transitionDuration  = "0.2s";
 }
-
+// SPORTS
 function ScaleSports(){
   sportsIMG.style.transform = 'scale(1.07)';
   sportsIMG.style.transitionDuration  = "0.2s";
@@ -80,20 +83,28 @@ function UnscaleSports(){
   sportsIMG.style.transform = 'scale(1)';
   sportsIMG.style.transitionDuration  = "0.2s";
 }
-
+// PETS
 function ScalePets(){
   petsIMG.style.transform = 'scale(1.07)';
   petsIMG.style.transitionDuration  = "0.2s";
 }
-
 function UnscalePets(){
   petsIMG.style.transform = 'scale(1)';
   petsIMG.style.transitionDuration  = "0.2s";
 }
+// TRAVEL
+function ScaleTravel(){
+  travelIMG.style.transform = 'scale(1.07)';
+  travelIMG.style.transitionDuration  = "0.2s";
+}
+function UnscaleTravel(){
+  travelIMG.style.transform = 'scale(1)';
+  travelIMG.style.transitionDuration  = "0.2s";
+}
 //When mouse hovers element
-technologyLi.onmouseover = ScalecategoryLiImg;
+technologyLi.onmouseover = ScaleTechnologyLi;
 //When mouse stops hovering over element
-technologyLi.onmouseleave = UnscalecategoryLiImg;
+technologyLi.onmouseleave = UnscaleTechnologyLi;
 
 house_garden.onmouseover = ScaleHouse_Garden;
 house_garden.onmouseleave = UnscaleHouse_Garden;
@@ -101,9 +112,12 @@ house_garden.onmouseleave = UnscaleHouse_Garden;
 fashion.onmouseover = ScaleFashion;
 fashion.onmouseleave = UnscaleFashion;
 
+sports.onmouseover = ScaleSports;
+sports.onmouseleave = UnscaleSports;
+
 pets.onmouseover = ScalePets;
 pets.onmouseleave = UnscalePets;
 
-sports.onmouseover = ScaleSports;
-sports.onmouseleave = UnscaleSports;
+travel.onmouseover = ScaleTravel;
+travel.onmouseleave = UnscaleTravel;
 //---------------------------------------------------------------------------

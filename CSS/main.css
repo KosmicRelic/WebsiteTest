@@ -92,7 +92,7 @@ input {
    position: absolute;
    top: 35rem;
    left:50%;
-   transform: translate(-1516%);
+   transform: translate(-1819%);
    margin:0;
    padding:0;
 }
@@ -105,7 +105,7 @@ input {
    list-style: none;   
    border: 1px solid #e8e8e8;
    border-radius: 4%;
-   width: 13.625rem;
+   width: 13.3rem;
    height:15rem;
    overflow: hidden; /*hides objects that overflow the parent*/
    transition: 0.2s ease;
@@ -116,17 +116,20 @@ input {
    margin-left:0rem;
    background-color: #316888;
 }.house_garden {
-   margin-left:15rem;
+   margin-left:14.4rem;
    background-color: #7f6f56;
 }.fashion {
-   margin-left:30rem;
+   margin-left:28.8rem;
    background-color: #503367;
 }.sports {
-   margin-left:45rem;
+   margin-left:43.2rem;
    background-color: #863529;
 }.pets {
-   margin-left:60rem;
+   margin-left:57.6rem;
    background-color: #2e7557;
+}.travel {
+   margin-left:72rem;
+   background-color: #49586b;
 }
 /* Controls the title of the category*/
 .categorytitle{
