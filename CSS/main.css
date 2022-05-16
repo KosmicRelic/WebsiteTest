@@ -5,7 +5,7 @@ body {
 
 .title {
    position:absolute;
-   top:6.5625rem;
+   top:8rem;
    left:50%;
    transform: translate(-50%,-50%); /*  moves -50% of the body on x and y axis*/
    font-size: 4rem;
