@@ -25,8 +25,8 @@ searchBar.addEventListener("keyup", OnKeyUp);
 clearIcon.addEventListener("click", OnClick);
 //--------------------------------------------------------------------------
 /* CONTROLS THE ZOOM IN - OUT OF THE IMAGES OF THE CATEGORIES WHEN MOUSE IS HOVERING OVER*/
-const categoryLi = document.querySelector(".category li");
-const categoryLiImg = document.querySelector(".category li img");
+const technologyLi = document.querySelector(".technology li");
+const technologyLIIMG = document.querySelector(".technology li img");
 
 const house_garden = document.querySelector(".house_garden");
 const house_gardenIMG = document.getElementById("house_garden");
@@ -42,13 +42,13 @@ const petsIMG = document.getElementById("petsIMG");
 
 
 function ScalecategoryLiImg(){
-  categoryLiImg.style.transform = 'scale(1.07)';
-  categoryLiImg.style.transitionDuration  = "0.2s";
+  technologyLIIMG.style.transform = 'scale(1.07)';
+  technologyLIIMG.style.transitionDuration  = "0.2s";
 
 }
 function UnscalecategoryLiImg(){
-  categoryLiImg.style.transform = 'scale(1)';
-  categoryLiImg.style.transitionDuration  = "0.2s";
+  technologyLIIMG.style.transform = 'scale(1)';
+  technologyLIIMG.style.transitionDuration  = "0.2s";
 }
 
 function ScaleHouse_Garden(){
@@ -91,9 +91,9 @@ function UnscalePets(){
   petsIMG.style.transitionDuration  = "0.2s";
 }
 //When mouse hovers element
-categoryLi.onmouseover = ScalecategoryLiImg;
+technologyLi.onmouseover = ScalecategoryLiImg;
 //When mouse stops hovering over element
-categoryLi.onmouseleave = UnscalecategoryLiImg;
+technologyLi.onmouseleave = UnscalecategoryLiImg;
 
 house_garden.onmouseover = ScaleHouse_Garden;
 house_garden.onmouseleave = UnscaleHouse_Garden;
