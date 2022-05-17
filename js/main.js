@@ -1,4 +1,4 @@
-/* CONTROL CANCEL BUTTON*/
+//------CONTROL CANCEL BUTTON--------------------------------------------------------------------------
 //Declare clear icon to check if it's visible
 const clearIcon = document.querySelector(".clear-icon");
 //Declare .search to check if it has any value
@@ -120,4 +120,37 @@ pets.onmouseleave = UnscalePets;
 
 travel.onmouseover = ScaleTravel;
 travel.onmouseleave = UnscaleTravel;
-//---------------------------------------------------------------------------
+//-----SLIDER ARROWS CONTROLLER----------------------------------------------------------------------
+
+const slider = document.getElementById("slider");
+const leftSliderArrow = document.getElementById("LeftSliderArrow");
+const rightSliderArrow = document.getElementById("RightSliderArrow");
+
+leftSliderArrow.style.visibility = "hidden";
+rightSliderArrow.style.visibility = "hidden";
+
+function RevealArrows(){
+leftSliderArrow.style.visibility = "visible";
+rightSliderArrow.style.visibility = "visible";
+
+leftSliderArrow.style.opacity = "1";
+rightSliderArrow.style.opacity = "1";
+
+leftSliderArrow.style.transitionDuration  = "0.3s";
+rightSliderArrow.style.transitionDuration  = "0.3s";
+}
+
+function HideArrows(){
+  leftSliderArrow.style.visibility = "hidden";
+  rightSliderArrow.style.visibility = "hidden";
+
+  leftSliderArrow.style.opacity = "0";
+  rightSliderArrow.style.opacity = "0";
+
+  leftSliderArrow.style.transitionDuration  = "0.3s";
+  rightSliderArrow.tyle.transitionDuration  = "0.3s";
+}
+
+slider.onmouseover = RevealArrows;
+slider.onmouseleave = HideArrows;
+
