@@ -88,7 +88,7 @@ input {
    transition: 0.1s ease;
 }/*---------------SLIDER--------------------------------------------------------------------------------------------------------------------------------*/
 
-.slider{
+.sliderParent{
    position:absolute;
    top:25rem;
    left:50%;
@@ -97,7 +97,29 @@ input {
    border-radius: 8px;
    width:85.35rem;
    height:19rem;
+   cursor: pointer;
 }
+
+.slider{
+   position:relative;
+   width:100%;
+   height:100%;
+   overflow: hidden;
+}
+
+.image1{
+   
+}.image1:hover{
+}
+
+.image2{
+   position:absolute;
+   top: 0rem;
+   left:85.35rem;
+}
+
+
+
 .RightSliderArrow{
    position: absolute;
    top:50%;

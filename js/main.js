@@ -122,7 +122,7 @@ travel.onmouseover = ScaleTravel;
 travel.onmouseleave = UnscaleTravel;
 //-----SLIDER ARROWS CONTROLLER----------------------------------------------------------------------
 
-const slider = document.getElementById("slider");
+const sliderParent = document.getElementById("sliderParent");
 const leftSliderArrow = document.getElementById("LeftSliderArrow");
 const rightSliderArrow = document.getElementById("RightSliderArrow");
 
@@ -148,9 +148,26 @@ function HideArrows(){
   rightSliderArrow.style.opacity = "0";
 
   leftSliderArrow.style.transitionDuration  = "0.3s";
-  rightSliderArrow.tyle.transitionDuration  = "0.3s";
+  rightSliderArrow.style.transitionDuration  = "0.3s";
 }
 
-slider.onmouseover = RevealArrows;
-slider.onmouseleave = HideArrows;
+sliderParent.onmouseover = RevealArrows;
+sliderParent.onmouseleave = HideArrows;
+//IMAGE CAROUSEL
 
+const image1 = document.getElementById("image1");
+const image2 = document.getElementById("image2");
+
+function SlideRight(){
+  //image1.style.display = "none";
+  //image2.style.display = "block";
+  
+  image2.style.transitionDuration = "0.3";
+}
+
+function SlideLeft(){
+  //image1.style.display = "block";
+  //image2.style.display = "none";
+
+  image1.style.transitionDuration = "0.3";
+}
